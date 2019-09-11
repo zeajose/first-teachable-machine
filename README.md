@@ -27,4 +27,5 @@ It is train with MobileNet to do image classification in the browser and uses tr
   
 <div/>
 
-You may also like https://github.com/zeajose/let-the-app-guess
+You may also like the other app I have "Let The App Guess" 
+https://github.com/zeajose/let-the-app-guess
