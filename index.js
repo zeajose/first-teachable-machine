@@ -21,6 +21,25 @@ async function setupWebcam() {
   });
 }
 
+async function setupWebcam() {
+  return new Promise((resolve, reject) => {
+    const navigatorAny = navigator;
+    navigator.getUserMedia = navigator.getUserMedia ||
+        navigatorAny.webkitGetUserMedia || navigatorAny.mozGetUserMedia ||
+        navigatorAny.msGetUserMedia;
+    if (navigator.getUserMedia) {
+      navigator.getUserMedia({video: true},
+        stream => {
+          webcamElement.srcObject = stream;
+          webcamElement.addEventListener('loadeddata',  () => resolve(), false);
+        },
+        error => reject());
+    } else {
+      reject();
+    }
+  });
+}
+
 async function app() {
   console.log('Loading mobilenet..');
 
@@ -55,14 +74,13 @@ async function app() {
 
       const classes = ['A', 'B', 'C'];
       document.getElementById('console').innerText = `
-        prediction: ${classes[result.classIndex]}\n
-        probability: ${result.confidences[result.classIndex]}
+        Prediction: ${classes[result.classIndex]}\n
+        Probability: ${result.confidences[result.classIndex] * 100}%
       `;
     }
 
     await tf.nextFrame();
   }
 }
-
 
 app();
