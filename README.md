@@ -24,7 +24,6 @@ It is train with MobileNet to do image classification in the browser and uses tr
   <br>
   Object C 
   <img src="public/object_c.png" />
-  
 <div/>
 
 You may also like the other app I have "Let The App Guess" 
