@@ -16,5 +16,13 @@ It is train with MobileNet to do image classification in the browser and uses tr
 ## Screeshots
 
 <div>
-HOMEPAGE 
-<img src="public/object_a.png" />
+  Object A 
+  <img src="public/object_a.png" />
+  <br>
+  Object B 
+  <img src="public/object_b.png" />
+  <br>
+  Object C 
+  <img src="public/object_c.png" />
+  
+<div/>
