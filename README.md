@@ -10,6 +10,6 @@ It is train with MobileNet to do image classification in the browser and uses tr
 
 ## How to use it?
 
-- To run the webpage, simply open index.html in a Web Browser
+- Once you copy the repository, simply open index.html in a Web Browser 
 - Allow webcam
 - Show 3-types of objects and classify them with your webcam
