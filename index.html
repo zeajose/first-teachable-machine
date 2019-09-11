@@ -4,15 +4,31 @@
     <script src="https://unpkg.com/@tensorflow/tfjs"></script>
     <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
     <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div id="console"></div>
-    <!-- Add an image that we will use to test -->
-    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
-    <button id="class-a">Add A</button>
-    <button id="class-b">Add B</button>
-    <button id="class-c">Add C</button>
-    <!-- Load index.js after the content of the page -->
-    <script src="index.js"></script>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div id="console" class="text-center mb-3"></div>
+          <!-- Add an image that we will use to test -->
+          <video autoplay playsinline muted id="webcam" width="100%" height="70%" style="margin-bottom: 3%; margin-top:3%;"></video>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-between">
+        <button id="class-a" class="col-4 btn btn-outline-warning" style=" border: 1px solid #f4f4f4; width: 33%;">Train object A</button>
+        <button id="class-b" class="col-4 btn btn-outline-warning" style="border: 1px solid #f4f4f4; width: 32%;">Train object B</button>
+        <button id="class-c" class="col-4 btn btn-outline-warning" style="border: 1px solid #f4f4f4; width: 33%;">Train object C</button>
+      </div>
+      <!-- Load index.js after the content of the page -->
+      <script src="index.js"></script>
+    </div>
   </body>
 </html>
