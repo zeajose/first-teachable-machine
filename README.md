@@ -26,3 +26,5 @@ It is train with MobileNet to do image classification in the browser and uses tr
   <img src="public/object_c.png" />
   
 <div/>
+
+You may also like href="https://github.com/jdilillo">Let the app guess</a>
