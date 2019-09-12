@@ -3,7 +3,7 @@ This is a teachable machine using tensorflow.js to do custom 3-class object clas
 
 ## Live demo
 
-https://first-teachable-machine.herokuapp.com/ (give it a few second to load)
+https://first-teachable-machine.herokuapp.com/
 
 ## How it works?
 
