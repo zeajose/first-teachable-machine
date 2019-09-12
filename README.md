@@ -12,9 +12,11 @@ It was train with MobileNet to do image classification in the browser and uses t
 
 ## How to use it?
 
-- Once you copy the repository, simply open index.html in a Web Browser 
+- Go to https://first-teachable-machine.herokuapp.com/
+- OR copy the repository and open index.html in a Web Browser 
 - Allow webcam
-- Show 3-types of objects and classify them with your webcam
+- Show 3-types of objects for training
+- After a few examples your machine will be ready to classify the objects :)
 
 
 ## Screeshots
