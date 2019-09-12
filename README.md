@@ -1,4 +1,4 @@
-# First-teachable-machine
+# First Teachable Machine
 This is a teachable machine using tensorflow.js to do custom 3-class object classifier using your webcam on the fly.
 
 ## Live demo
