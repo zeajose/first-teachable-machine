@@ -29,6 +29,9 @@ It was train with MobileNet to do image classification in the browser and uses t
   Object C 
   <img src="public/object_c.png" />
 <div/>
+  
 
-You may also like the other app I have "Let The App Guess" 
+## You may also like
+Another other app I have called "Let The App Guess":
 https://github.com/zeajose/let-the-app-guess
+
