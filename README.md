@@ -1,9 +1,13 @@
 # First-teachable-machine
 This is a teachable machine using tensorflow.js to do custom 3-class object classifier using your webcam on the fly.
 
+## Live demo
+
+https://let-the-app-guess.herokuapp.com/
+
 ## How it works?
 
-It is train with MobileNet to do image classification in the browser and uses transfer learning, which bootstraps our training with the pre-trained MobileNet model and customizes it to train for your application.
+It was train with MobileNet to do image classification in the browser and uses transfer learning, which bootstraps our training with the pre-trained MobileNet model and customizes it to train for your application.
 
 
 ## How to use it?
